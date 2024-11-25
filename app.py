@@ -1,8 +1,4 @@
-"""
-This module implements the Expense Tracker application using Flask.
-It provides features for users to log their expenses, view summaries,
-and perform CRUD operations on transactions.
-"""
+
 from flask import Flask, render_template, request, flash, redirect, url_for, session
 from flask_mysqldb import MySQL
 from wtforms import Form, StringField, PasswordField, TextAreaField, IntegerField, validators
